@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Basic Personal Information</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/home.css">
+  <style>
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+</style>
+
+<!--favicon-->
+<link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="../favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="../favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+<link rel="manifest" href="../favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+<style>
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
+body {
+  background-color: #3e94ec;
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+div.table-title {
+   display: block;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+}
+
+.table-title h3 {
+   color: #fafafa;
+   font-size: 30px;
+   font-weight: 400;
+   font-style:normal;
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+   text-transform:uppercase;
+}
+
+
+/*** Table Styles **/
+
+.table-fill {
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  height: 320px;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+}
+ 
+th {
+  color:#D5DDE5;;
+  background:#1b1e24;
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:23px;
+  font-weight: 100;
+  padding:24px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+
+th:first-child {
+  border-top-left-radius:3px;
+}
+ 
+th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+  
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom-: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+tr:hover td {
+  background:#4E5066;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+}
+ 
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+ 
+tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+ 
+tr:nth-child(odd):hover td {
+  background:#4E5066;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+ 
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+ 
+td {
+  background:#FFFFFF;
+  padding:20px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+th.text-left {
+  text-align: left;
+}
+
+th.text-center {
+  text-align: center;
+}
+
+th.text-right {
+  text-align: right;
+}
+
+td.text-left {
+  text-align: left;
+}
+
+td.text-center {
+  text-align: center;
+}
+
+td.text-right {
+  text-align: right;
+}
+</style>
+
+
+
+
+
+<style>
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+</style>
+
+
+
+</head>
+<body>
+  <center><img src="../images/logo2.png" alt="Avatar" class="avatar"></center>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="home.html">Portfolios (Resume)</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="bpi.html">Basic Personal Information</a></li>
+      <li><a href="cl.html">Cover Letter</a></li>
+      <li><a href="eb.html">Educational Backgrounds</a></li>
+      <li><a href="je.html">Job Experiences</a></li>
+      <li><a href="s.html">Skills</a></li>
+      <li><a href="h.html">Hobbies</a></li>
+    </ul>
+      </div>
+</nav>
+
+<div class="container" >
+  <h2 >Basic Personal Information</h2>
+  <p>Please find my personal details in following table:</p>
+</div>
+
+<div class="table-title">
+
+</div>
+<table class="table-fill">
+<thead>
+
+</thead>
+<tbody class="table-hover">
+<tr>
+<td class="text-left">Full name</td>
+<td class="text-left">Amir Khaboori</td>
+</tr>
+<tr>
+<td class="text-left">Date of birth</td>
+<td class="text-left">02-Aug-1981</td>
+</tr>
+<tr>
+<td class="text-left">Place of birth</td>
+<td class="text-left">Iran</td>
+</tr>
+<tr>
+<td class="text-left">Postal Address</td>
+<td class="text-left">West Vancouver</td>
+</tr>
+<tr>
+<td class="text-left">Email Address</td>
+<td class="text-left">amir.khaboori@itdcanada.ca</td>
+</tr>
+<tr>
+<td class="text-left">Cell number</td>
+<td class="text-left">+1 (604) 727 8792</td>
+</tr>
+</tbody>
+</table>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script>
+var x = 0;
+$(document).ready(function(){
+  $(window).resize(function(){
+    $("span").text(x += 1);
+  });
+});
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/main.js"></script>
+</body>
+</html>
